@@ -16,6 +16,7 @@ let package = Package(
     targets: [
         .target(
             name: "PopupDialog",
+            dependencies: ["DynamicBlurView"],
             path: "PopupDialog",
             exclude: [
                 "Info.plist",
